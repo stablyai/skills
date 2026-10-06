@@ -13,4 +13,4 @@ Steps can run concurrently within one job, with separate logs and execution:
 - `cancel`: gracefully stops a background step, including a long-running service.
 - `parallel`: groups concurrent steps and waits for the group to finish; shorthand for background steps followed by a wait.
 
-Sources: [announcement](https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel/) · [workflow syntax](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions).
+Reference: [workflow syntax](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions).
